@@ -1,6 +1,6 @@
-import recent_earthquake_detection
+from recent_earthquake_detection import ekstraksi_data, tampilkan_data
 
 if __name__ == '__main__':
     print('Main Application')
-    result = recent_earthquake_detection.ekstraksi_data()
-    recent_earthquake_detection.tampilkan_data(result)
+    result = ekstraksi_data()
+    tampilkan_data(result)
